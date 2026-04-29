@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio made by Angela Zarić.">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1>Angela's Portfolio</h1>
+        </header>
+        <div class="introduction">
+            <div class="my-photo">
+                <img src="images for portfolio/slika.jpg" id="a-photo-of-me">
+            </div>
+            <div class="my-name-and-introduction">
+                <p>I'm Angela Zarić, a web designer who is still developing her skills. As a beginner, most of my ideas and visions are still in the drafts, but I'm expanding my knowledge quickly to bring them to life.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="projects">
+            <img src="images for portfolio/fashion blog main.JPG" class="preview" onclick="popUpWindow('fashion-blog')">
+            <img src="images for portfolio/nm main page.JPG" class="preview" onclick="popUpWindow('travel-site')">
+            <img src="images for portfolio/wp main.JPG" class="preview" onclick="popUpWindow('food-for-thought')">
+            <img src="images for portfolio/wp kyp main.JPG" class="preview" onclick="popUpWindow('know-your-parrots')">
+            <img src="images for portfolio/main page.jpg" class="preview" onclick="popUpWindow('bakery-app')">
+            <img src="images for portfolio/sunny.jpg" class="preview" onclick="popUpWindow('weather-tracker')">
+            <img src="images for portfolio/adobe i tomato.jpg" class="preview" onclick="popUpWindow('adobe-illustrator-1')">
+            <img src="images for portfolio/adobe i giraffe.jpg" class="preview" onclick="popUpWindow('adobe-illustrator-2')">
+            <img src="images for portfolio/adobe p magazine.jpg" class="preview" onclick="popUpWindow('adobe-photoshop-1')">
+            <img src="images for portfolio/adobe p book.jpg" class="preview" onclick="popUpWindow('adobe-photoshop-2')">
+        </div>
+        <div class="pop-up-window-visibility">
+            <div class="pop-up-window">
+                <button class="exit-button" onclick="closePopUp()">&times;</button>
+                <div class="pop-up-project-image">
+                    <div class="carousel-container">
+                        <div class="carousel-line">
+                            
+                        </div>
+                        <button class="previous-button">‹</button>
+                            <button class="next-button">›</button>
+                    </div>
+                </div>
+                <div class="pop-up-text">
+                    <h2 class="project-name"></h2>
+                    <p>Time limit: <b class="time"></b></p>
+                    <p class="description"></p>
+                    <a href="#" class="project-link" target="_blank" rel="noopener">View Live Project</a>
+                    <ul class="skills-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2026 Angela Zarić | Portfolio</p>
+        </footer>
+        <script src="js-code.js"></script>
+    </body>
+</html>
