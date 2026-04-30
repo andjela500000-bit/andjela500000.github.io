@@ -84,6 +84,7 @@ hr {
 }
 
 .project-name {
+    min-width: 260px;
     font-size: 30px;
     position: absolute;
     top: 20%;
@@ -185,7 +186,7 @@ footer {
     background: rgb(141, 128, 111);
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 966px) {
     .introduction {
         display: flex;
         flex-direction: column;
