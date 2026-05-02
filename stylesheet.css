@@ -44,10 +44,10 @@ hr {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    grid-template-columns: auto auto auto auto;
     align-items: center;
     justify-items: center;
-    padding: 5px;
+    padding: 25px;
     gap: 20px;
 }
 
