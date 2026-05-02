@@ -73,7 +73,7 @@ hr {
     transform: translate(-50%, -50%);
     width: 80%;
     max-width: 1100px;             
-    height: auto;
+    height: 90%;
     z-index: 100;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 5px 5px 5px rgb(0,0,0, 0.1);
