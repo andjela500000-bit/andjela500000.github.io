@@ -88,7 +88,7 @@ hr {
     font-size: 30px;
     position: absolute;
     top: 20%;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .pop-up-window p a {
