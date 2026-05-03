@@ -44,7 +44,7 @@ hr {
 
 .projects {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
     justify-items: center;
     padding: 25px;
@@ -222,7 +222,7 @@ footer {
     }
 
     .pop-up-text {
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
         width: 100%;
         padding: 20px !important;
@@ -232,6 +232,13 @@ footer {
 
     .skills-list li {
         margin-bottom: 5px; 
+    }
+
+    .pop-up-project-image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
