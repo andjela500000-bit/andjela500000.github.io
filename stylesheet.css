@@ -221,6 +221,10 @@ footer {
         position: static;
     }
 
+    .time-limit {
+        margin-top: 10px;
+    }
+
     .pop-up-text {
         font-size: 15px;
         text-align: center;
