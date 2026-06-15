@@ -40,7 +40,7 @@ const projectsData = {
     "know-your-parrots": {
         title: "Know Your Parrots",
         time: "2 days",
-        description: "Informative website about parrots, with some articles that are SEO optimized, and each section on the website is dedicated to different topics related to parrots.",
+        description: "Informative website about parrots, with some articles that are SEO optimized and different sections for different topics related to parrots.",
         url: "https://live-know-your-parrots.pantheonsite.io/",
         skills: ["WordPress"],
         images: ["images for portfolio/wp kyp main.JPG", "images for portfolio/wp kyp content.JPG", "images for portfolio/wp kyp footer.JPG"]
